@@ -449,7 +449,8 @@ footer .menu a {
 
   header {
     position: absolute;
-    bottom: 0;
+ /* bottom: 0; */
+    bottom: 40vh;
     min-height: 120px;
     width: 100%;
     transition: min-height .2s ease;
@@ -532,7 +533,8 @@ footer .menu a {
   #genuine-photo{
     grid-column: 1 / -1;
     grid-row: 1 / 4;
-    min-height: 100vh;
+ /* min-height: 100vh; */
+    min-height: 60vh;
   }
 
   .section-one .cta {
@@ -544,6 +546,8 @@ footer .menu a {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     background: transparent;
+    padding-left: 0;
+    padding-right: calc(var(--site-padding)*2);
   }
 
   .section-one .message h3 {
